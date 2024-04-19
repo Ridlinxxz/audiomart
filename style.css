@@ -1,0 +1,766 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: rgb(195, 194, 194);
+}
+p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+.header,
+.div1,
+.footer {
+    background-color: black;
+    width: 100%;
+}
+.header,
+.footer {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.audiomart {
+    margin: 0px;
+    padding: 0px;
+}
+.head {
+    margin: auto;
+    padding: 20px;
+}
+.nav a {
+    font-size: 0.7rem;
+    margin: 0px;
+    padding: 30px 20px;
+}
+.nav2 a {
+    margin: auto 20px;
+    font-size: 0.7rem;
+}
+.nav a:hover {
+    background-color: white;
+    border-width: 2%;
+    color: black;
+}
+
+.head,
+.div2,
+.div5,
+.div6,
+.foot,
+.nav2 {
+    display: -webkit-flex;
+}
+.div1 {
+    background-image: url(../audiomart/image/hp.png);
+    background-size: 33%;
+    background-position-x: 700px;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+    padding: 60px 80px;
+}
+.bold {
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 40%;
+}
+.new {
+    font-size: 0.8rem;
+}
+.bold p {
+    width: 60%;
+}
+.bold h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+}
+.ex {
+    margin-bottom: 50px;
+}
+.seemore,
+.seeprod {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: bold;
+    background-color: rgb(255, 132, 32);
+    padding: 15px 20px;
+    text-align: center;
+    width: 30%;
+}
+.seemore:hover,
+.seeprod:hover {
+    background-color: white;
+}
+
+
+
+.wrap {
+    color: black;
+    width: 100%;
+}
+
+
+.div2 {
+    padding: 0px;
+    margin: auto;
+}
+.div2 div {
+    margin: 200px auto auto auto;
+}
+.div2 a {
+    color: rgb(81, 81, 81);
+    font-size: 0.8rem;
+}
+.div2 a:hover,
+.nav2 a:hover {
+    color: rgb(255, 132, 32);
+}
+.headphone,
+.speaker,
+.earphone {
+    border-radius: 15px;
+    padding:100px 30px 20px 30px;
+    text-align: center;
+    width: 31%;
+}
+.headphone,
+.speaker,
+.earphone,
+.yx1 {
+    background-color: rgb(227, 227, 227);
+}
+
+
+.hp,
+.sp,
+.ep {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -57px;
+    width: 7%;
+}
+.sp {
+    width: 11%;
+    margin-left: -80px;
+}
+.ep {
+    width: 10%;
+    margin-left: -70px;
+}
+
+.div3 {
+    background-image: url(../audiomart/image/speak.png);
+    background-color: rgb(255, 132, 32);
+    background-size: 50%;
+    background-position-x: -200px;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    color: white;
+    height: 450px;
+    padding-top: 60px;
+    padding-left: 640px;
+    margin: 120px auto auto auto;
+}
+.bold2 {
+    width: 55%;
+}
+.zx9 {
+    font-size: 35px;
+    width: 30%; 
+}
+.ex2 {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.seeprod {
+    background-color: black;
+    color: white;
+}
+.seeprod:hover {
+    color: black;
+}
+.head,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.foot,
+.ipod,
+.yx1 {
+    border-radius: 10px;
+    width: 78%;
+}
+.div4 {
+    background-color: rgb(227, 227, 227);
+}
+.div4,
+.div5 {
+    margin: 30px auto auto auto;
+}
+.div1
+.div3,
+.div4,
+.mod,
+.ipod {
+    background-size: 100%;
+}
+.div4 {
+    background-image: url('../audiomart/image/bcg.png');
+    background-size: 45%;
+    background-position-x: 650px;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.div4 h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+.seeprod2:hover,
+.seeprod3:hover {
+    background-color: black;
+    color: white;
+}
+.seeprod2,
+.seeprod3 {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+    padding: 20px;
+}
+.head,
+.div5,
+.div6,
+.foot {
+    -webkit-justify-content:space-between;
+}
+.ipod,
+.yx1 {
+    width: 49%;
+    height: 300px;
+} 
+.ipod {
+    background-image: url(../audiomart/image/earpod3.jpg);
+    background-repeat: no-repeat; 
+}
+.div5 h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+.yx1 {
+    padding: 50px 50px 50px 80px;   
+}
+
+.div6 {
+    border-radius: none;
+    margin: 150px auto auto auto;
+}
+.bold3 {
+    margin-top: 100px;
+    width: 45%;
+}
+.bring {
+    font-size: 32px;
+    width: 65%;
+}
+.lorem {
+    width: 90%;
+}
+.mod {
+    background-image: url(../audiomart/image/modela.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 500px;
+    width: 50%;
+}
+.best {
+    color: rgb(255, 132, 32);
+}
+
+.footer {
+    margin-top: 150px;
+    padding: 100px 0px 50px 0px;
+}
+.foot {
+    margin: auto;
+}
+.bold4 {
+    width: 50%;
+}
+.bold4 h2,
+.longword {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.bold4 p {
+    width: 100%;
+}
+.copy {
+    margin: 0px;
+}
+.nav2 {
+    font-size: 0.8rem;
+}
+
+/*=====page 2======*/
+.div02,
+.div03,
+.cost,
+.div05,
+.div04,
+.div06 {
+    display: -webkit-flex;
+}
+.div02,
+.div03,
+.gb,
+.like,
+.div04,
+.div05,
+.div06 {
+    width: 78%;
+}
+.gb {
+    margin: 70px auto 50px auto;
+}
+.goback {
+    color: black;
+}
+.div02 {
+    margin: 30px auto;
+}
+.headset1 {
+    background-image: url(../audiomart/image/hp.png);
+    background-size: 50%;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 520px;
+    padding: 0px;
+    width: 45%;
+}
+.boldd {
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 40%;
+}
+.neww {
+    margin: 0px;
+}
+.boldd h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    width: 60%;
+}
+.exx {
+    width: 90%;
+}
+.num {
+    background-color: rgb(227, 227, 227);
+    margin: 0px;
+    padding: 10px 50px 10px 40px;
+    width: 5%;
+}
+.addcart {
+    background-color: rgb(255, 132, 32);
+    padding: 10px 25px;
+    width: 29%;
+}
+.div03 {
+    margin: 150px auto auto auto;
+}
+.feature {
+    width: 55%;
+}
+.itb {
+    margin-left: 140px;
+    width: 30%;
+}
+.product-item-unit {
+    padding-right: 10px;
+    color: rgb(255, 132, 32);
+}
+.like {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.div05,
+.div06 {
+    margin: auto;
+    -webkit-justify-content:space-between;
+}
+.div04 {
+    margin: 100px auto auto auto;
+}
+.img1 {
+    width: 45%;
+}
+.bck1,
+.bck2 {
+    background-image: url(../audiomart/image/modela.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+.bck2 {
+    background-image: url(../audiomart/image/hppp.jpg);
+    background-position-y: -50px;
+    margin-top: 15px;
+}
+.img2 {
+    background-image: url(../audiomart/image/hpp1.png);
+    border-radius: 10px;
+    background-color: black;
+    background-size: 85%;
+    background-position: 200px -100px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 55%;
+}
+
+.headset1 {
+    background-color: rgb(231, 230, 230);
+}
+.headsett,
+.headsett2,
+.headsett3 {
+    height: 530px;
+    text-align: center;
+    width: 32%;
+}
+.div05 h3 {
+    margin: 60px auto 40px auto;
+    font-size: 1.5rem;
+}
+.div05 a {
+    background-color: rgb(255, 132, 32);
+    padding: 20px 40px;
+}
+.cost a:hover, 
+.div05 a:hover {
+        background-color: rgb(231, 230, 230);
+        color: black;
+    }
+
+.hd,
+.hd2,
+.hd3 {
+    background-color: rgb(231, 230, 230);
+    background-image: url(../audiomart/image/hp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+}
+.hd2 {
+    background-image: url(../audiomart/image/hpp1.png);
+}
+.hd3 {
+    background-image: url(../audiomart/image/hpp2.png);
+    background-size: 70%;
+}
+.div06 {
+    margin-top: 10px;
+}
+.headset2 {
+    text-align: center;
+    width: 30%;
+}
+.headset2 h3 {
+    margin-bottom:50px;
+}
+.headset2 a {
+    background-color: rgb(255, 132, 32);
+    padding: 15px 25px;
+    font-size: 0.8rem;
+}
+.headset2 a:hover {
+    background-color: rgb(227, 227, 227);
+    color: black;
+}
+
+
+
+
+/*======media queries======*/
+
+@media screen and (max-width: 650px) {
+    .nav,
+    .nav2 {
+        display: none;
+    }
+    .head {
+        -webkit-justify-content: center;
+    }
+    .audiomart {
+        font-size: 3rem;
+    }
+    .div1 {
+        text-align: center;
+        padding: 30px 0px 60px 0px;
+    }
+    .bold {
+        margin: 0px;
+        width: 100%;
+    }
+    .new {
+        font-size: 1.5rem;
+        margin: auto auto 10px auto;
+    }
+    .div1 h1 {
+        font-size: 4rem;
+    }
+    .ex {
+        font-size: 1rem;
+        margin: auto auto 40px auto;
+    }
+    .seemore {
+        font-size: 0.8rem;
+        padding: 25px 45px;
+    }
+    .div2 {
+        margin: 70px auto;
+        -webkit-flex-direction: column;
+        width: 100%;
+    }
+    .headphone,
+    .speaker,
+    .earphone {
+        padding:170px 30px 20px 30px;
+        width: 100%;
+    }
+    .div2 h4 {
+        font-size: 1.5rem;
+    }
+    .div2 a {
+        font-size: 1rem;
+    }
+    .hp {
+        margin: -230px auto 0px -80px;
+        width: 28%;
+    }
+    .sp {
+        margin: -200px auto 0px -95px;
+        width: 36%;
+    }
+    .ep {
+        margin: -200px auto 0px -90px;
+        width: 34%;
+    }
+    .div2 div {
+        margin: 60px auto;
+    }
+    .div3 {
+        background-size: 55%;
+        background-position: center;
+        background-position-y: 85px;
+        margin: 0px;
+        height: 700px;
+        padding: 400px 0px 0px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .bold2 {
+        margin: auto;
+    }
+    .zx9 {
+        font-size: 40px;
+        margin: auto;
+        width: 100%;
+    }
+    .ex2 {
+        margin-bottom: 50px;
+    }
+    .seeprod {
+        font-size: 0.9rem;
+        padding: 30px 50px;
+    }
+    .div4 {
+        background-size: 65%;
+        background-position: center;
+        background-position-x: 290px;
+        background-position-y: 35px;
+        padding: 100px 300px 100px 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .div4 h3 {
+        font-size: 30px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .div5,
+    .div6,
+    .foot {
+        flex-direction: column;
+        width: 100%;
+    }
+    .ipod,
+    .yx1 h3,
+    .mod {
+        width: 100%;
+    }
+    .yx1 {
+        margin-top: 30px;
+        text-align: left;
+        padding: 50px auto 70px auto;
+        width: 100%;
+    }
+    .yx1 h3 {
+        font-size: 45px;
+    }
+    .seeprod3 {
+        padding: 30px 70px;
+    }
+    .div6 {
+        margin: 50px auto;
+        text-align: center;
+    }
+    .bold3 {
+        margin: auto;
+        width: 100%;
+    }
+    .bring {
+        font-size: 50px;
+        width: 100%;
+    }
+    .lorem {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        width: 100%;
+    }
+    .mod {
+        margin-top: 30px;
+    }
+    .foot {
+        text-align: center;
+    }
+    .footer {
+        padding: 100px 10px;
+    }
+    .bold4 {
+        margin: auto;
+        width: 100%;
+    }
+    .bold4 h2 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .longword {
+        font-size: 1.2rem;
+    }
+
+    /*======product page======*/
+    .div02,
+    .div03,
+    .div04,
+    .div05 {
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .headset1,
+    .boldd h1 {
+        width: 100%;
+    }
+    .boldd {
+        margin: 50px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .neww {
+        font-size: 1.4rem;
+    }
+    .boldd h1 {
+        font-size: 3rem;
+    }
+    .exx {
+        font-size: 1.2rem;
+        margin: auto;
+        width: 80%;
+    }
+    .price {
+        font-size: 1.6rem;
+    }
+    .addcart,
+    .num {
+        width: 30%;
+    }
+    .cost a:hover, 
+    .div05 a:hover {
+        background-color: rgb(231, 230, 230);
+        color: black;
+    }
+    .cost {
+        -webkit-justify-content: center;
+    }
+    .div03 {
+        text-align: center;
+    }
+    .feature,
+    .itb {
+        width: 100%;
+        font-size: 2rem;
+        margin: 0px;
+    }
+    .feature p,
+    .itb p {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .div04 {
+        margin-top: 80px;
+    }
+    .img1,
+    .img2 {
+        width: 100%;
+    }
+    .img2 {
+        background-size: 75%;
+        height: 500px;
+        margin: 20px 0px 0px 0px;
+    }
+    .like h2 {
+        font-size: 2rem;
+    }
+    .headsett,
+    .headsett2,
+    .headsett3 {
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .div05 h3 {
+        margin-top: 30px;
+        font-size: 1.8rem;
+    }
+    .div05 {
+        margin-bottom: 100px;
+    }
+    .div05 a {
+        width: 100%;
+    }
+    .hd {
+
+    }
+    .hd2 {
+        background-size: 35%;
+    }
+    .hd3 {
+        background-size: 50%;
+    }
+
+}
