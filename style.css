@@ -56,7 +56,7 @@ a {
     display: -webkit-flex;
 }
 .div1 {
-    background-image: url(../audiomart/image/hp.png);
+    background-image: url(../audiomart/hp.png);
     background-size: 33%;
     background-position-x: 700px;
     background-position-y: 20px;
@@ -155,7 +155,7 @@ a {
 }
 
 .div3 {
-    background-image: url(../audiomart/image/speak.png);
+    background-image: url(../audiomart/speak.png);
     background-color: rgb(255, 132, 32);
     background-size: 50%;
     background-position-x: -200px;
@@ -212,7 +212,7 @@ a {
     background-size: 100%;
 }
 .div4 {
-    background-image: url('../audiomart/image/bcg.png');
+    background-image: url('../audiomart/bcg.png');
     background-size: 45%;
     background-position-x: 650px;
     background-position-y: -10px;
@@ -249,7 +249,7 @@ a {
     height: 300px;
 } 
 .ipod {
-    background-image: url(../audiomart/image/earpod3.jpg);
+    background-image: url(../audiomart/earpod3.jpg);
     background-repeat: no-repeat; 
 }
 .div5 h3 {
@@ -277,7 +277,7 @@ a {
     width: 90%;
 }
 .mod {
-    background-image: url(../audiomart/image/modela.jpg);
+    background-image: url(../audiomart/modela.jpg);
     background-repeat: no-repeat;
     border-radius: 10px;
     height: 500px;
@@ -340,7 +340,7 @@ a {
     margin: 30px auto;
 }
 .headset1 {
-    background-image: url(../audiomart/image/hp.png);
+    background-image: url(../audiomart/hp.png);
     background-size: 50%;
     border-radius: 5px;
     background-position: center;
@@ -408,19 +408,19 @@ a {
 }
 .bck1,
 .bck2 {
-    background-image: url(../audiomart/image/modela.jpg);
+    background-image: url(../audiomart/modela.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 10px;
     height: 300px;
 }
 .bck2 {
-    background-image: url(../audiomart/image/hppp.jpg);
+    background-image: url(../audiomart/hppp.jpg);
     background-position-y: -50px;
     margin-top: 15px;
 }
 .img2 {
-    background-image: url(../audiomart/image/hpp1.png);
+    background-image: url(../audiomart/hpp1.png);
     border-radius: 10px;
     background-color: black;
     background-size: 85%;
@@ -458,7 +458,7 @@ a {
 .hd2,
 .hd3 {
     background-color: rgb(231, 230, 230);
-    background-image: url(../audiomart/image/hp.png);
+    background-image: url(../audiomart/hp.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -467,10 +467,10 @@ a {
     width: 100%;
 }
 .hd2 {
-    background-image: url(../audiomart/image/hpp1.png);
+    background-image: url(../audiomart/hpp1.png);
 }
 .hd3 {
-    background-image: url(../audiomart/image/hpp2.png);
+    background-image: url(../audiomart/hpp2.png);
     background-size: 70%;
 }
 .div06 {
