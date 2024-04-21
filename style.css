@@ -543,6 +543,10 @@ a {
         padding: 100px 30px 20px 30px;
         width: 100%;
     }
+    .speaker,
+    .earphone {
+        margin-top: 40px;
+    }
     .div2 h4 {
         font-size: 1.5rem;
     }
@@ -674,8 +678,12 @@ a {
         font-size: 2.5rem;
     }
     .longword {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
+    .footer {
+        margin-top: 40px;
+    }
+
 
     /*======product page======*/
     .div02,
@@ -713,6 +721,10 @@ a {
     .num {
         width: 30%;
     }
+    .addcart {
+        font-size: 0.8rem;
+        padding-top: 15px;
+    }
     .cost a:hover, 
     .div05 a:hover {
         background-color: rgb(231, 230, 230);
@@ -727,7 +739,7 @@ a {
     .feature,
     .itb {
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin: 0px;
     }
     .feature p,
@@ -743,9 +755,13 @@ a {
         width: 100%;
     }
     .img2 {
-        background-size: 75%;
-        height: 500px;
+        background-size: 70%;
+        background-position: 150px -50px;
+        height: 400px;
         margin: 20px 0px 0px 0px;
+    }
+    .like {
+        margin: 60px auto;
     }
     .like h2 {
         font-size: 2rem;
@@ -761,7 +777,7 @@ a {
         font-size: 1.8rem;
     }
     .div05 {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
     .div05 a {
         width: 100%;
@@ -774,6 +790,9 @@ a {
     }
     .hd3 {
         background-size: 50%;
+    }
+    .bold3 {
+        padding: 0px 10px;
     }
 
 }
